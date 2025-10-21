@@ -40,7 +40,7 @@ class DyslexiaDetectionTool {
         // Set canvas properties
         this.ctx.lineCap = 'round';
         this.ctx.lineJoin = 'round';
-        this.ctx.lineWidth = 3;
+        this.ctx.lineWidth = 20; // Much larger pen size to match text size
         this.ctx.strokeStyle = '#e53e3e'; // Red color for drawing
         this.ctx.globalAlpha = 0.8; // Semi-transparent
         
